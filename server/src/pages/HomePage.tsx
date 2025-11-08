@@ -1,8 +1,8 @@
-import React from 'react';
+import { type FC } from 'react';
 import { Outlet } from 'react-router';
 import { Navbar } from '../components/Navbar';
 
-export const HomePage = () => {
+export const HomePage: FC = () => {
   return (
     <>
       <Navbar />
