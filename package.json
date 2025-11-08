@@ -10,29 +10,34 @@
   },
   "postinstall": "patch-package",
   "dependencies": {
-    "@babel/runtime": "^7.23.5",
+    "@babel/runtime": "^7.28.4",
     "@swc/helpers": "^0.5.17",
+    "@tailwindcss/postcss": "^4.1.17",
     "cookie": "^1.0.2",
-    "meteor-node-stubs": "^1.2.12",
+    "meteor-node-stubs": "^1.2.24",
     "patch-package": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "postcss": "^8.5.6",
+    "postcss-load-config": "^6.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-router": "^7.9.5",
-    "set-cookie-parser": "^2.7.1"
+    "set-cookie-parser": "^2.7.2",
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.39.1",
     "@types/mocha": "^8.2.3",
-    "@types/node": "^22.10.6",
-    "@types/react": "^18.2.5",
-    "@types/react-dom": "^18.2.4",
-    "eslint": "^9.38.0",
+    "@types/node": "^22.19.0",
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
+    "eslint": "^9.39.1",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.4.0",
+    "eslint-plugin-typescript-sort-keys": "^3.3.0",
+    "globals": "^16.5.0",
     "jiti": "^2.6.1",
     "prettier": "3.6.2",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^8.46.2"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3"
   },
   "meteor": {
     "mainModule": {
