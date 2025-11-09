@@ -1,12 +1,12 @@
 import { type FC } from 'react';
 import { Logo } from './Logo';
+import { Avatar } from './Avatar';
 
 export const Navbar: FC = () => {
   return (
-    <nav className='grid w-full grid-cols-3 justify-center items-center min-h-20 bg-primary '>
+    <nav className='flex w-full justify-between items-center min-h-20 bg-background-dark text-text-secondary '>
       <Logo />
-      <span>Avatar</span>
-      <span>ConfigButton</span>
+      <Avatar />
     </nav>
   );
 };

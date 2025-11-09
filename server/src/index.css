@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 
 @theme {
-    --color-primary: #090D0B;
+  --color-background-light: #fff;
+  --color-background-dark: #090d0b;
+  --color-text-primary: #090d0b;
+  --color-text-secondary: #fff;
+
+  --font-primary:
+    'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+body {
+  color: var(--color-text-primary);
+  background-color: var(--color-background-light);
+
+  font-family: var(--font-primary);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
