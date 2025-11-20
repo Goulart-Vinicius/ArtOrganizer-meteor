@@ -1,6 +1,6 @@
 import { type FC } from 'react';
 import { Logo } from './Logo';
-import { Avatar } from './Avatar';
+import { Avatar } from './Avatar/Avatar';
 
 export const Navbar: FC = () => {
   return (
